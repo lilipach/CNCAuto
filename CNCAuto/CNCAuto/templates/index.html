@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section class=" section-color-black py-4">
+    <div class="row py-4 justify-content-md-center h-25">
+        <div class="col-md-auto col-md-12 col-lg-3 px-4 pb-4">
+            <h2 class="cnc-header-l text-nowrap pe-4 pb-4">C&C AUTO</h2>
+            <button class="cnc-button-black"> Learn More </button>
+        </div>
+
+        <div class="col-md-auto col-md-12 col-lg-3">
+            <img src="../static/images/white_car_layered.png" class="full-image" alt="cars">
+        </div>
+    </div>
+
+    <div class="row image-container-l py-4">
+        <img src="../static/images/home_cars.webp"/>
+    </div>
+
+</section>
+
+<section class="section-color-brown">
+    <div class="row justify-content-md-center py-4">
+
+        <div class="col-md-auto col-md-12 col-lg-4">
+            <img src="../static/images/home_white_cars.webp" class="full-image rounded" alt="cars">
+        </div>
+
+        <div class="col-md-auto col-md-12 col-lg-6">
+            <div class="card h-100 w-100">
+                <div class="card-body align-items-center d-flex justify-content-center">
+                    <div class="text-center text-nowrap">
+                        <h2 class="cnc-header-m cnc-header-aqua no">C&C AUTO</h2>
+                        <p>Mon - Fri: 9am - 6pm</p>
+                        <p>Sat: 10am - 2pm</p>
+                        <p>Sun: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section-color-aqua">
+    <div class="row justify-content-md-center py-4">
+        <div class="col-md-auto col-md-12 col-lg-6">
+            <div class="card h-100 w-100">
+                <div class="card-body align-items-center d-flex justify-content-center"> 
+                    <div class="text-nowrap text-center">
+                        <h2 class="cnc-header-m cnc-header-aqua">Office Location</h2>
+                        <p>1802 N Carson St Suite 170, Carson City, NV 89701, USA</p>
+                        <p>cncauto775@gmail.com</p>
+                        <p>775-870-5661</p>
+                    </div>
+   
+                </div>
+            </div>
+        </div>
+        <div class="col-md-auto col-md-12 col-lg-4">
+            <img src="../static/images/home_red_car.webp" class="full-image rounded" alt="cars">
+        </div>
+    </div>
+    <div class="row">
+        <div class="map">
+            <div class="gmap_canvas">
+                <iframe width="600" height="500" id="map" src="https://maps.google.com/maps?q=1802%20N%20Carson%20St%20Suite%20170,%20Carson%20City,%20NV%2089701,%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

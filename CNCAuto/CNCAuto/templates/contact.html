@@ -1,0 +1,220 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section class="section-color-black d-flex flex-column justify-content-center">
+
+    <div class="align-self-center text-center py-m w-75">
+        <div class="align-self-center text-center">
+            <h1 class="cnc-header-white py-4">Contact Us</h1>
+            <p class="cnc-header-white">
+                Would  you like additional assistance or have a particular car in mind? Let's start a conversation.
+            </p>
+        </div>
+    </div>
+
+    <div class="align-self-center w-75 pb-4">
+    </div>
+</section>
+
+<section class="section-color-brown d-flex flex-column justify-content-center">
+    <div class="d-flex align-self-center justify-content-center w-75 card flex-row my-m p-4">
+        <div class="p-4">
+            <h4 class="cnc-header-aqua">Points of Contact:</h4>
+            <p> Reach out to us for any additional questions or services. We're always happy to help you.</p>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Phone:</h5>
+                    </div>775-870-5661</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Email:</h5>
+                    </div>
+                    <p class="mb-1">cncauto775@gmail.com</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Address: </h5>
+                    </div>
+                    <p class="mb-1">1802 N Carson St Suite 170, Carson City, NV 89701, USA</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="p-4">
+            <h4 class="cnc-header-aqua">Car Finder</h4>
+            <p> Looking for something specific? We can help you find it! Fill out the form below and we'll help you look for the car you want.</p>
+            <form>
+                <h5>Vehicle Information: </h5>
+                <div class="form-group pb-2">
+                    <label for="carMake">Make</label>
+                    <select class="form-control" id="carMake">
+                        <option selected="" value="make_all" id="make_All">All Makes</option>
+                        <optgroup class="popular-makes" label="Popular Makes">
+                            <option class="make-option" id="make_Acura" value="Acura">Acura</option>
+                            <option class="make-option" id="make_Alfa-Romeo" value="Alfa Romeo">Alfa Romeo</option>
+                            <option class="make-option" id="make_Audi" value="Audi">Audi</option>
+                            <option class="make-option" id="make_BMW" value="BMW">BMW</option>
+                            <option class="make-option" id="make_Buick" value="Buick">Buick</option>
+                            <option class="make-option" id="make_Cadillac" value="Cadillac">Cadillac</option>\
+                            <option class="make-option" id="make_Chevrolet" value="Chevrolet">Chevrolet</option>
+                            <option class="make-option" id="make_Chrysler" value="Chrysler">Chrysler</option>
+                            <option class="make-option" id="make_Dodge" value="Dodge">Dodge</option>
+                            <option class="make-option" id="make_Fiat" value="Fiat">Fiat</option>
+                            <option class="make-option" id="make_Ford" value="Ford">Ford</option>
+                            <option class="make-option" id="make_GMC" value="GMC">GMC</option>
+                            <option class="make-option" id="make_Genesis" value="Genesis">Genesis</option>
+                            <option class="make-option" id="make_Honda" value="Honda">Honda</option>
+                            <option class="make-option" id="make_Hyundai" value="Hyundai">Hyundai</option>
+                            <option class="make-option" id="make_Infiniti" value="Infiniti">Infiniti</option>
+                            <option class="make-option" id="make_Jaguar" value="Jaguar">Jaguar</option>
+                            <option class="make-option" id="make_Jeep" value="Jeep">Jeep</option>
+                            <option class="make-option" id="make_Kia" value="Kia">Kia</option>
+                            <option class="make-option" id="make_Land-Rover" value="Land Rover">Land Rover</option>
+                            <option class="make-option" id="make_Lexus" value="Lexus">Lexus</option>
+                            <option class="make-option" id="make_Lincoln" value="Lincoln">Lincoln</option>
+                            <option class="make-option" id="make_Mazda" value="Mazda">Mazda</option>
+                            <option class="make-option" id="make_Mercedes-Benz" value="Mercedes-Benz">Mercedes-Benz</option>
+                            <option class="make-option" id="make_Mini" value="Mini">Mini</option>
+                            <option class="make-option" id="make_Mitsubishi" value="Mitsubishi">Mitsubishi</option>
+                            <option class="make-option" id="make_Nissan" value="Nissan">Nissan</option>
+                            <option class="make-option" id="make_Porsche" value="Porsche">Porsche</option>
+                            <option class="make-option" id="make_Ram" value="Ram">Ram</option>
+                            <option class="make-option" id="make_Subaru" value="Subaru">Subaru</option>
+                            <option class="make-option" id="make_Tesla" value="Tesla">Tesla</option>
+                            <option class="make-option" id="make_Toyota" value="Toyota">Toyota</option>
+                            <option class="make-option" id="make_Volkswagen" value="Volkswagen">Volkswagen</option>
+                            <option class="make-option" id="make_Volvo" value="Volvo">Volvo</option></option>
+                        </optgroup>
+                        <optgroup class="other-makes" label="Other Makes">
+                            <option class="make-option" id="make_AM-General" value="AM General">AM General</option>
+                            <option class="make-option" id="make_American-Motors" value="American Motors">American Motors</option>
+                            <option class="make-option" id="make_Aston-Martin" value="Aston Martin">Aston Martin</option>
+                            <option class="make-option" id="make_Avanti" value="Avanti">Avanti</option>
+                            <option class="make-option" id="make_Bentley" value="Bentley">Bentley</option>
+                            <option class="make-option" id="make_Bugatti" value="Bugatti">Bugatti</option>
+                            <option class="make-option" id="make_Daewoo" value="Daewoo">Daewoo</option>
+                            <option class="make-option" id="make_Daihatsu" value="Daihatsu">Daihatsu</option>
+                            <option class="make-option" id="make_Datsun" value="Datsun">Datsun</option>
+                            <option class="make-option" id="make_Delorean" value="Delorean">Delorean</option>
+                            <option class="make-option" id="make_Eagle" value="Eagle">Eagle</option>
+                            <option class="make-option" id="make_Ferrari" value="Ferrari">Ferrari</option>
+                            <option class="make-option" id="make_Fisker" value="Fisker">Fisker</option>
+                            <option class="make-option" id="make_Freightliner" value="Freightliner">Freightliner</option>
+                            <option class="make-option" id="make_Geo" value="Geo">Geo</option>
+                            <option class="make-option" id="make_Hummer" value="Hummer">Hummer</option>
+                            <option class="make-option" id="make_Isuzu" value="Isuzu">Isuzu</option>
+                            <option class="make-option" id="make_Karma" value="Karma">Karma</option>
+                            <option class="make-option" id="make_Laforza" value="Laforza">Laforza</option>
+                            <option class="make-option" id="make_Lamborghini" value="Lamborghini">Lamborghini</option>
+                            <option class="make-option" id="make_Lotus" value="Lotus">Lotus</option>
+                            <option class="make-option" id="make_Maserati" value="Maserati">Maserati</option>
+                            <option class="make-option" id="make_Maybach" value="Maybach">Maybach</option>
+                            <option class="make-option" id="make_Mclaren" value="Mclaren">Mclaren</option>
+                            <option class="make-option" id="make_Mercury" value="Mercury">Mercury</option>
+                            <option class="make-option" id="make_Merkur" value="Merkur">Merkur</option>
+                            <option class="make-option" id="make_Mobility-Ventures" value="Mobility Ventures">Mobility Ventures</option>
+                            <option class="make-option" id="make_Oldsmobile" value="Oldsmobile">Oldsmobile</option>
+                            <option class="make-option" id="make_Pagani" value="Pagani">Pagani</option>
+                            <option class="make-option" id="make_Panoz" value="Panoz">Panoz</option>
+                            <option class="make-option" id="make_Plymouth" value="Plymouth">Plymouth</option>
+                            <option class="make-option" id="make_Polestar" value="Polestar">Polestar</option>
+                            <option class="make-option" id="make_Pontiac" value="Pontiac">Pontiac</option>
+                            <option class="make-option" id="make_Rolls-Royce" value="Rolls-Royce">Rolls-Royce</option>
+                            <option class="make-option" id="make_Saab" value="Saab">Saab</option>
+                            <option class="make-option" id="make_Saturn" value="Saturn">Saturn</option>
+                            <option class="make-option" id="make_Scion" value="Scion">Scion</option>
+                            <option class="make-option" id="make_Shelby" value="Shelby">Shelby</option>
+                            <option class="make-option" id="make_Smart" value="Smart">Smart</option>
+                            <option class="make-option" id="make_Spyker" value="Spyker">Spyker</option>
+                            <option class="make-option" id="make_Sterling" value="Sterling">Sterling</option>
+                            <option class="make-option" id="make_Suzuki" value="Suzuki">Suzuki</option>
+                            <option class="make-option" id="make_Th%21nk" value="Th%21nk">Th!nk</option>
+                            <option class="make-option" id="make_VPG" value="VPG">VPG</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="form-group pb-2">
+                    <label for="carModel">Model</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Any Model">
+                </div>
+
+                <div class="form-group pb-2">
+                    <label for="carYear">Year</label>
+                    <select class="form-control" id="carYear">
+                        <option class="year-option" id="yearAny" value="Any" selected>Any</option>
+                    </select>
+                </div>
+
+                <div class="form-group pb-4">
+                    <label for="carModel">Mileage</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Any">
+                </div>
+
+
+                <h5>Desired Vehicle: </h5>
+                <label for="exampleFormControlTextarea1">Price Range</label>
+                <div class="d-flex">
+                    <div class="input-group mb-3 me-3 w-25">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        <input type="text" class="form-control w-25" aria-label="Amount (to the nearest dollar)" placeholder="Min">
+                    </div>
+
+                    <div class="input-group mb-3 w-25">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        <input type="text" class="form-control w-25" aria-label="Amount (to the nearest dollar)" placeholder="Max">
+                    </div>
+                </div>
+
+                <div class="form-group pb-4">
+                    <label for="exampleFormControlTextarea1">Features</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="automatic, 4 wheel drive, etc."></textarea>
+                </div>
+
+                <h5>Contact Information:</h5>
+                <div class="form-group pb-2">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                </div>
+
+                <div class="form-group pb-2">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+
+                <div class="form-group pb-2">
+                    <label for="formGroupExampleInput">Phone Number (optional)</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="(123) 456 - 7891 ">
+                </div>
+
+                <div class="form-group pb-2">
+                    <label for="exampleFormControlTextarea1">Comments/Additional Detatils</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script>
+    // year drop down input
+    let dateDropdown = document.getElementById('carYear');
+    let currentYear = new Date().getFullYear();
+    let earliestYear = 1970;
+
+    while (currentYear >= earliestYear) {
+        let dateOption = document.createElement('option');
+        dateOption.text = currentYear;
+        dateOption.value = currentYear;
+        dateDropdown.add(dateOption);
+        currentYear -= 1;
+    }
+</script>
+
+{% endblock %}
